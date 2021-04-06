@@ -5,4 +5,10 @@
 {% block monTitre %}
     Liste des personnages
 {% endblock %}
-{% block body %}{% endblock %}
+{% block body %}
+    <div>Pseudo:{{ pseudo }}</div>
+    <div>Age:{{ Age }}</div>
+    <div>Force:{{ carac.force }}</div>
+    <div>Agilite:{{ carac.Agi }}</div>
+    <div>Intel:{{ carac.intel}}</div>
+{% endblock %}
