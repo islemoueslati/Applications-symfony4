@@ -6,10 +6,33 @@
     Liste des personnages
 {% endblock %}
 {% block body %}
-    <div><img src="{{ asset("images/personnages/benladen.jpg") }}"width="200" height="200"></div>
-    <div>Pseudo:{{ pseudo }}</div>
-    <div>Age:{{ Age }}</div>
-    <div>Force:{{ carac.force }}</div>
-    <div>Agilite:{{ carac.Agi }}</div>
-    <div>Intel:{{ carac.intel}}</div>
+<table class="table">
+    <tr class="thead-dark">
+        <th>Image</th>
+        <th>Nom</th>
+        <th>Age</th>
+        <th>Sexe</th>
+        <th>Force</th>
+        <th>Agilite</th>
+        <th>Intelligence</th>
+    </tr>
+    {% for player in Players %}
+        <tr>
+            <td><img src="{{ asset('images/personnages/'~player.Pseudo~'.jpg')}}" width="200" height="200"></td>
+            <td>{{player.Pseudo}}</td>
+            <td>{{player.Age}}</td>
+            <td>
+                {% if player.Sexe %}
+                    Homme
+                {% else %}
+                    Femme
+                {% endif %}
+            </td>
+            <td>{{ player.carac.force}}</td>
+            <td>{{ player.carac.Agi }}</td>
+            <td>{{ player.carac.intel }}</td>
+
+        </tr>
+    {% endfor %}
+</table>
 {% endblock %}

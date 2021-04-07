@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Personnage;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -20,12 +21,7 @@ class PersonnageController extends AbstractController
      */
     public function persos(): Response
     {
-        return $this->render('personnage/persos.html.twig',[
-            "pseudo"=>"DODO","Age"=>23,"carac"=>[
-                "force"=>3,
-                "Agi"=>76,
-                "intel"=>2
-            ]
-        ]);
+       Personnage::creerPersonnage();
+        return $this->render('personnage/persos.html.twig',["Players"=>Personnage::$personnages]);
     }
 }
