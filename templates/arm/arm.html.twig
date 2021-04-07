@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+    {% block title %}Hello ArmController!{% endblock %}
+
+{% block monTitre %}
+    Informations {{ arm.type }}
+{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="col-2">
+            <img src="{{ asset('images/armes/'~arm.type~'.jpg') }}"width="200" height="200">
+            <h2>{{ arm.type }}</h2>
+        </div>
+        <h3>Caractéristique</h3>
+        <ul>
+            <li>Poid: {{ arm.poid }}</li>
+            <li>Utilisation: {{ arm.utilisation }}</li>
+            <li>Effet: {{ arm.effet }}</li>
+
+        </ul>
+    </div>
+
+{% endblock %}

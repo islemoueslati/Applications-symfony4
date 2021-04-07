@@ -6,5 +6,25 @@
     Informations {{ perso.Pseudo }}
 {% endblock %}
 {% block body %}
+    <div class="row">
+        <div class="col-2">
+            <img src="{{ asset('images/personnages/'~perso.Pseudo~'.jpg') }}"width="200" height="200">
+            <h2>{{ perso.Pseudo }}</h2>
+        </div>
+        <div>
+            {% if perso.Sexe %}
+                Homme
+            {% else %}
+                Femme
+            {% endif %}
+        </div>
+        <h3>Caractéristique</h3>
+        <ul>
+            <li>Force: {{ perso.carac.force }}</li>
+            <li>Agilité: {{ perso.carac.Agi }}</li>
+            <li>Intelligence: {{ perso.carac.intel }}</li>
+
+        </ul>
+    </div>
 
 {% endblock %}

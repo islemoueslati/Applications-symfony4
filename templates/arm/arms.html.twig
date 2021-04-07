@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ArmController!{% endblock %}
+
+{% block monTitre %}
+    Liste des armes
+{% endblock %}
+{% block body %}
+    <table class="table">
+        <tr class="thead-dark">
+            <th>Image</th>
+            <th>Type</th>
+            <th>Poid</th>
+            <th>Utilisation</th>
+            <th>Effet</th>
+        </tr>
+        {% for arm in arms %}
+            <tr>
+                <td><img src="{{ asset('images/armes/'~arm.type~'.jpg')}}" width="200" height="200"></td>
+                <td><a href="{{ path('afficher_arm',{'type':arm.type}) }}"> {{arm.type}}</a></td>
+                <td>{{arm.poid}}</td>
+                <td>{{ arm.utilisation}}</td>
+                <td>{{ arm.effet }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
