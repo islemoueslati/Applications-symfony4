@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a766fbed-a5c3-4e7d-bfae-ff3407990de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Animaux.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_07_04_2021_9_48_PM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Animal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AnimalRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210407212045.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/chien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cochon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/crocodile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/serpent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/singe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AnimalFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/animal/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Animaux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Animaux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +139,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qr5O6YlkrovhhLsuJ9Zv9hHKZc" />
@@ -143,9 +157,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Animaux\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Animaux\public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -156,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617824832708</updated>
       <workItem from="1617824834344" duration="1320000" />
-      <workItem from="1617826322675" duration="1617000" />
+      <workItem from="1617826322675" duration="2507000" />
+      <workItem from="1618050358186" duration="8496000" />
     </task>
     <servers />
   </component>
