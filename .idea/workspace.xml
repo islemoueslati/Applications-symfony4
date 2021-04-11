@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a766fbed-a5c3-4e7d-bfae-ff3407990de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210410153025.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210410184132.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/FamilleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Famille.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/FamilleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/animal/afficherAnimal.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/famille/Familles.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/famille/afficherFamille.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210411122537.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ContinentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Continent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ContinentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/continent/continents.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AnimalController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/AnimalFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AnimalFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Animal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/animal/afficherAnimal.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/animal/afficherAnimal.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/animal/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/animal/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/famille/Familles.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/famille/Familles.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,12 +149,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/famille" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/continent" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Animaux\templates\continent" />
       <recent name="E:\Animaux\templates\famille" />
       <recent name="E:\Animaux\templates\animal" />
       <recent name="E:\Animaux\public" />
@@ -175,7 +174,7 @@
       <updated>1617824832708</updated>
       <workItem from="1617824834344" duration="1320000" />
       <workItem from="1617826322675" duration="2507000" />
-      <workItem from="1618050358186" duration="18327000" />
+      <workItem from="1618050358186" duration="26187000" />
     </task>
     <servers />
   </component>

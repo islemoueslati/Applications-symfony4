@@ -22,6 +22,9 @@
             <a href="{{ path('afficher_famille',{'id':animal.famille.id}) }}"
                class="btn btn-primary">{{ animal.famille.libelle }}</a>
             <div>
+                {% for continent in animal.continents %}
+                    <a href="{{ path('continents') }}" class="btn btn-warning"> {{ continent.libelle }}</a>
+                {% endfor %}
             </div>
 
         </div>
