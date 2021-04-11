@@ -10,8 +10,9 @@
             <img src="{{asset('images/'~animal.image)}}" width="200" height="150">
             </div>
             <div class="col-auto" >
-                <h2> {{ animal.nom }}</h2>
+                <h2><a href="{{ path('afficher_animal',{'id':animal.id})}}" >{{ animal.nom }}</a></h2>
                 <div>{{ animal.description }}</div>
+                <div><a href="{{ path('afficher_famille',{'id':animal.famille.id}) }}" class="btn btn-primary">{{ animal.famille.libelle }}</a> </div>
             </div>
         </div>
     {% endfor %}
